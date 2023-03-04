@@ -9,10 +9,10 @@ You need google chrome installed locally but supported: Frirefox, Edge, Electron
 
 1. Install cypress https://www.cypress.io/
 2. Install node.js https://nodejs.org/en/
-- Javascript
 
 Recommended
 
+- Javascript
 - VS Code
 - Postman
 
