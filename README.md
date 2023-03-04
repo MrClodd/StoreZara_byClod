@@ -56,7 +56,7 @@ How tu use Cypress
 
 https://petstore.swagger.io/
 
-## 💖 <a name="result">Result of Test Cases in Postman</a>
+## 💖 <a name="result">Result of Test Cases</a>
 
  The tests cases is ejecuting to check the API Rest on Petstore
  
