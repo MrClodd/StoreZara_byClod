@@ -61,7 +61,7 @@ https://petstore.swagger.io/
  The tests cases is ejecuting to check the API Rest on Petstore
  
  <p align="center">
-<img src="https://freefrontend.com/assets/img/css-loaders/loading.gif" width=90% height=90%>
+<img src="https://freefrontend.com/assets/img/css-loaders/loading.gif" width=50% height=50%>
  
 🧪Test case 1: Create your user with the HTTP request and retrieve their data by calling the corresponding service.
 <br>Action is: Open Postman and create a new HTTP GET request and enter the endpoint URL ```POST/user```
