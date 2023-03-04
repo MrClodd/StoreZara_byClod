@@ -66,7 +66,8 @@ https://petstore.swagger.io/
 🧪Test case 1: Create your user with the HTTP request and retrieve their data by calling the corresponding service.
 <br>Action is: Open Postman and create a new HTTP GET request and enter the endpoint URL POST/user
 <br>Test Data is: data of the user you want to create:
-<p{
+<p
+   {
   "id": 1234,
   "username": "mrclod",
   "firstName": "claudiu",
@@ -75,7 +76,8 @@ https://petstore.swagger.io/
   "password": "123456",
   "phone": "755-5556",
   "userStatus": 1
-}>
+}
+   >
 <br>Result is: If the request was successful, you should receive a response with a 200 OK status code and the user's information.
 
 🧪Test Case 2: Send HTTP request, JSON returns the /pet/findByStatus endpoint and lists the names of the pets that have been sold through a function.
