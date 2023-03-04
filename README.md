@@ -56,27 +56,39 @@ How tu use Cypress
 
 https://petstore.swagger.io/
 
-## 💖 <a name="result">Result of Test Cases in Postman</a>
+## 💖 <a name="result">Result of Test Cases</a>
 
  The tests cases is ejecuting to check the API Rest on Petstore
  
  <p align="center">
-<img src="" width=90% height=90%>
+<img src="https://freefrontend.com/assets/img/css-loaders/loading.gif" width=50% height=50%>
  
 🧪Test case 1: Create your user with the HTTP request and retrieve their data by calling the corresponding service.
-<br>Action is: 
-<br>Test Data is: 
-<br>Result is: 
+<br>Action is: Open Postman and create a new HTTP GET request and enter the endpoint URL ```POST/user```
+<br>Test Data is: data of the user you want to create:
+```json
+ {
+  "id": 1234,
+  "username": "mrclod",
+  "firstName": "claudiu",
+  "lastName": "alexandru",
+  "email": "mrlod@claudiu.com",
+  "password": "123456",
+  "phone": "755-5556",
+  "userStatus": 1
+}
+```
+<br>Result is: If the request was successful, you should receive a response with a ```200 OK``` status code and the user's information.
 
-🧪Test Case 2: Send HTTP request, JSON returns the /pet/findByStatus endpoint and lists the names of the pets that have been sold through a function.
-<br>Action is: 
-<br>Test Data is: The output format must be formed by the tuple {id, name}
-<br>Result is: 
+🧪Test Case 2: Send HTTP request, JSON returns the ```/pet/findByStatus``` endpoint and lists the names of the pets that have been sold through a function.
+<br>Action is: Open Postman and create a new HTTP GET request and enter the endpoint URL ```GET/pet/findByStatus```
+<br>Test Data is: list by names of the pets that have been sold
+<br>Result is: The output format must be formed by the tuple ```{id, name}```
 
 🧪Test Case 3: Create a class whose constructor requires the above data structure and make a method that can loop through it to identify how many pets have the same name.
-<br>Action is: 
-<br>Test Data is: Example output: {“William”: 11, “ Floyd”: 2}
-<br>Result is: 
+<br>Action is: Open Postman and create a new HTTP GET request and enter the endpoint URL ```/pet/findByStatus```
+<br>Test Data is: pets have the same name in the Swagger API data structure
+<br>Result is: Example output: ```{"doggie": 35, "Собака": 1, "кыца": 1, "Кошка": 1, "Кошки": 1, "kitten1": 1, "Анаконда": 1, "LAPIN LAPIN": 1, "Star": 1}```
 
 
 
