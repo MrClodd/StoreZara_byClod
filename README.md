@@ -88,7 +88,7 @@ https://petstore.swagger.io/
 🧪Test Case 3: Create a class whose constructor requires the above data structure and make a method that can loop through it to identify how many pets have the same name.
 <br>Action is: Open Postman and create a new HTTP GET request and enter the endpoint URL ```/pet/findByStatus```
 <br>Test Data is: pets have the same name in the Swagger API data structure
-<br>Result is: Example output: ```{“William”: 11, “ Floyd”: 2}```
+<br>Result is: Example output: ```{"doggie": 35, "Собака": 1, "кыца": 1, "Кошка": 1, "Кошки": 1, "kitten1": 1, "Анаконда": 1, "LAPIN LAPIN": 1, "Star": 1}```
 
 
 
