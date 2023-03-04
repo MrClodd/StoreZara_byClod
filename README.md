@@ -90,6 +90,7 @@ https://petstore.swagger.io/
 <br>Test Data is: pets have the same name in the Swagger API data structure
 <br>Result is: Example output: ```{"doggie": 35, "Собака": 1, "кыца": 1, "Кошка": 1, "Кошки": 1, "kitten1": 1, "Анаконда": 1, "LAPIN LAPIN": 1, "Star": 1}```
 
-
+ <p align="center">
+<img src="https://github.com/MrClodd/StoreZara_byClod/blob/cc8e262e5c7fdfb0c66b396ee96713a934c19266/Exercise%203%20Data%20processing%20in%20APIs%20with%20python%20test%203/Report/screen%20result.png" width=100% height=100%>
 
 
