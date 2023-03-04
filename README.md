@@ -78,8 +78,6 @@ https://petstore.swagger.io/
   "userStatus": 1
 }
 ```
-  
-
 <br>Result is: If the request was successful, you should receive a response with a 200 OK status code and the user's information.
 
 🧪Test Case 2: Send HTTP request, JSON returns the /pet/findByStatus endpoint and lists the names of the pets that have been sold through a function.
