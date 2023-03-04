@@ -61,7 +61,7 @@ https://petstore.swagger.io/
  The tests cases is ejecuting to check the API Rest on Petstore
  
  <p align="center">
-<img src="https://github.com/MrClodd/StoreZara_byClod/blob/8e777c1df2368d0072640c2522ee40f4a46a900a/Exercise%203%20Data%20processing%20in%20APIs%20with%20Postman%20test%201%20and%202/Screenshot/PetStore.png" width=50% height=50%>
+<img src="https://github.com/MrClodd/StoreZara_byClod/blob/8e777c1df2368d0072640c2522ee40f4a46a900a/Exercise%203%20Data%20processing%20in%20APIs%20with%20Postman%20test%201%20and%202/Screenshot/PetStore.png" width=90% height=90%>
  
 🧪Test case 1: Create your user with the HTTP request and retrieve their data by calling the corresponding service.
 <br>Action is: Open Postman and create a new HTTP GET request and enter the endpoint URL ```POST/user```
