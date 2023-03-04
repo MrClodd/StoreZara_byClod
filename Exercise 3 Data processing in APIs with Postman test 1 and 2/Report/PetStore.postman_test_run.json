@@ -1,0 +1,121 @@
+{
+	"id": "4bdee9c9-ce6e-4a80-8473-3db000d0bbfe",
+	"name": "PetStore",
+	"timestamp": "2023-03-04T20:24:47.893Z",
+	"collection_id": "12913336-ede0ba08-4338-4df2-9865-839736838fe6",
+	"folder_id": 0,
+	"environment_id": "12913336-1a7485e0-195a-4a42-a832-c716a492aa24",
+	"totalPass": 4,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-03-04T20:24:46.846Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "1911aed9-4e1f-4877-8acc-e5e15345b578",
+			"name": "Post user",
+			"url": "",
+			"time": 381,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				381
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b41d220b-62b3-4d29-b39e-081d73adaf0f",
+			"name": "Get user",
+			"url": "https://petstore.swagger.io/v2/user/mrclod",
+			"time": 120,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				120
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "77cd2e9f-c4e5-4934-a523-d8702819a5ee",
+			"name": "Get Pet sold",
+			"url": "https://petstore.swagger.io/v2/pet/findByStatus?status=sold",
+			"time": 122,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"{35, cow}, {9223372036854648000, doggie}, {9223372036854648000, doggie}, {9223372036854648000, doggie}, {9223372036854648000, doggie}, {12, undefined}, {9223372036854648000, Keks}, {9223372036854649000, doggie}, {13, undefined}, {777, ymka}": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"{35, cow}, {9223372036854648000, doggie}, {9223372036854648000, doggie}, {9223372036854648000, doggie}, {9223372036854648000, doggie}, {12, undefined}, {9223372036854648000, Keks}, {9223372036854649000, doggie}, {13, undefined}, {777, ymka}": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				122
+			],
+			"allTests": [
+				{
+					"{35, cow}, {9223372036854648000, doggie}, {9223372036854648000, doggie}, {9223372036854648000, doggie}, {9223372036854648000, doggie}, {12, undefined}, {9223372036854648000, Keks}, {9223372036854649000, doggie}, {13, undefined}, {777, ymka}": true,
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 623,
+	"collection": {
+		"requests": [
+			{
+				"id": "1911aed9-4e1f-4877-8acc-e5e15345b578",
+				"method": "POST"
+			},
+			{
+				"id": "b41d220b-62b3-4d29-b39e-081d73adaf0f",
+				"method": "GET"
+			},
+			{
+				"id": "77cd2e9f-c4e5-4934-a523-d8702819a5ee",
+				"method": "GET"
+			}
+		]
+	}
+}
