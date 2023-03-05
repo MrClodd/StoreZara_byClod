@@ -56,7 +56,7 @@ How tu use Cypress
 
 ## Video
 
-[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
+[![Watch the video]()](https://github.com/MrClodd/StoreZara_byClod/blob/bc9d52b6c388ad4989b45476f5f4d8a478a02b99/cypress/videos/web.cy.js.mp4)
 
 ### 📖 API test
 
