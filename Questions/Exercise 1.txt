@@ -1,0 +1,95 @@
+Ejercicio 1: 
+
+Prueba exploratoria y reporte
+
+Producto
+Formas parte de un equipo de producto que desarrolla nuevas funcionalidades para un sistema de ecommerce del sector textil.
+Dicha plataforma de venta online permite la venta en 10 mercados diferentes, repartidos entre EEUU, Europa, Asia y América del Sur.
+
+Equipo
+Formas parte de un equipo de uno de los equipos de producto, a los que llamamos verticales de negocio, como qa evolutivo, el cuál trabaja con metodología Scrum con sprints de dos semanas. Esta vertical está compuesta por
+• 1 product owner
+• 1 scrum master
+• 1 technical lead
+• 3 desarrolladores backend
+• 3 desarrolladores frontend
+• 1 QAs evolutivos(tu)
+
+Tus funciones como QA evolutivo
+• Definicion de los criterios de aceptación de esa HU
+• Escritura de esos criterios de aceptación en BDD
+• Ejecución de pruebas
+
+HU
+Se ha definido una nueva HU cuyo enunciado es el siguiente:
+“Modificar el proceso de login para que además de usuario y contraseña sea obligatorio aceptar un check de política de privacidad”
+
+En base a la información aportada, se pide:
+
+1. Definición de los criterios de aceptación de esa HU
+
+• El usuario no puede iniciar sesión sin haber aceptado la política de privacidad.
+• El check de aceptación de la política de privacidad debe aparecer en la pantalla de login.
+• El check de aceptación debe estar seleccionado por defecto.
+• Al hacer click en el check de aceptación se debe mostrar el texto completo de la política de privacidad.
+• El usuario puede deseleccionar el check de aceptación y no iniciar sesión.
+• Si el usuario deselecciona el check de aceptación, al intentar iniciar sesión se debe mostrar un mensaje de error indicando que es necesario aceptar la política de privacidad.
+
+2. Escritura en BDD Gherkin de los casos de test para validar esa HU
+
+Feature: Modificar proceso de login para aceptar política de privacidad
+
+Scenario: Usuario acepta la política de privacidad
+  Given el usuario se encuentra en la pantalla de login
+  When el usuario ingresa su usuario y contraseña
+  And el usuario selecciona el check de aceptación de la política de privacidad
+  And el usuario hace click en el botón de iniciar sesión
+  Then el usuario debería ser redirigido a la página de inicio
+
+Scenario: Usuario no acepta la política de privacidad
+  Given el usuario se encuentra en la pantalla de login
+  When el usuario ingresa su usuario y contraseña
+  And el usuario deselecciona el check de aceptación de la política de privacidad
+  And el usuario hace click en el botón de iniciar sesión
+  Then se debería mostrar un mensaje de error indicando que es necesario aceptar la política de privacidad
+
+3. Teniendo en cuenta que esta HU tiene implementación Web para backend y frontend, comenta qué herramientas utilizarías para validar esta HU en cada disciplina de forma manual.
+
+• De forma manual:
+-Deben ser realizadas por un equipo de expertos que identifican errores y proponen correcciones acordes a las pautas, normativas y requisitos de accesibilidad, usabilidad y calidad web.(JIRA)
+-Permiten aplicar técnicas de recolección de datos por parte de los usuarios, las cuales deben ser revisadas y evaluadas manualmente.(XRAY)
+-Mayor esfuerzo y dedicación de tiempo a la hora de analizar el sitio web para encontrar un mayor número de errores y documentarlos.(Confluence)
+
+• De forma automatizada: 
+-Para validar la implementación Web en el frontend, se podría utilizar herramientas como Selenium WebDriver o Cypress.
+-Para validar la implementación Web en el backend, se podrían realizar pruebas API utilizando herramientas como Postman o REST-assured.
+
+4. Como QA engineer dentro de un equipo, compártenos que ceremonias y reuniones crees que existirán durante la semana que dura el sprint.
+
+• Sprint Planning: reunión para planificar el trabajo del sprint.
+• Daily: reunión diaria para que el equipo sincronice su trabajo y se actualicen el estado de las tareas.
+• Sprint Review: reunión al final del sprint para revisar y demostrar las funcionalidades implementadas.
+• Sprint Retrospective: reunión al final del sprint para evaluar el proceso del sprint y buscar mejoras.
+
+5. Como último paso, nos gustaría incorporar la validación de este nuevo caso de uso a nuestro plan de regresión automática.
+
+a. ¿Qué herramientas usarías para automatizar la parte de Web, iOS, Android y la parte backend?
+
+• Para automatizar la parte Web, se podrían utilizar herramientas como Selenium WebDriver o Cypress.
+• Para automatizar la parte iOS y Android, se podrían utilizar frameworks de automatización como Appium o Xamarin.
+• Para automatizar la parte backend, se podrían utilizar herramientas de pruebas de API como Postman o REST-assured.
+
+b. ¿Qué herramientas de CI/CD crees que se podrían usar para programar el lanzamiento de la regresión de forma planificada y manual?
+
+• Algunas herramientas como: Jenkins, Azure DevOps, Github Actions.
+
+6. Imagina que nuestro PO nos comenta el jueves por la mañana que hay que meter una nueva HU en este sprint que se cierra viernes a medio día y a ti te faltan aún 1 desarrollo de una HU por recibir de los desarrolladores y probarlo.
+¿Qué alternativas propondrías?
+
+• Priorizar la HU que ya se encuentra en proceso y tratar de acelerar su finalización. 
+
+• Evaluar la importancia de la nueva HU y determinar si realmente es crítica para el negocio o si podría esperar hasta el próximo sprint. Si se decide que es esencial, se podría negociar con el Product Owner para extender el sprint y tener más tiempo para completar las tareas pendientes.
+
+• Si ninguna de las opciones anteriores es viable, se podría considerar la posibilidad de dejar incompleta la tarea de la HU en proceso para poder trabajar en la nueva HU. En este caso, se tendría que evaluar si es posible lanzar la HU incompleta sin afectar negativamente la experiencia del usuario o la integridad del sistema.
+
+• En cualquier caso, es importante tener en cuenta las implicaciones y riesgos de cada alternativa y discutirlas con el equipo de desarrollo y el Product Owner antes de tomar una decisión.
