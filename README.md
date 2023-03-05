@@ -56,7 +56,7 @@ How tu use Cypress
 
 ## Video
 
-![image](https://github.com/MrClodd/StoreZara_byClod/blob/210a33b5bc9b9e3d991ae6a64ce241944332fcdf/cypress/videos/web.cy.js.mp4)
+[![Watch the video](https://github.com/MrClodd/StoreZara_byClod/blob/210a33b5bc9b9e3d991ae6a64ce241944332fcdf/cypress/videos/web.cy.js.mp4)
 
 ### 📖 API test
 
