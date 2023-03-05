@@ -50,7 +50,7 @@ How tu use Cypress
             npx cypress run
 
 
-![Report](https://freefrontend.com/assets/img/css-loaders/loading.gif)            
+![Report](https://github.com/MrClodd/StoreZara_byClod/blob/8ba11bf236932c83c2d78098c368a56c29f942ef/cypress/screenshots/cypress%20open.png)            
 
 ## Video
 
