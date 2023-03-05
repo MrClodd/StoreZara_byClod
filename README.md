@@ -1,4 +1,4 @@
-# <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYKq4hggSSPA3QvDqSStGRAroLw_vUDlOJdT6IrJIlehPc5sQSei4VhMnF85cXfm7W1hg&usqp=CAU" align="right" width="50" /> Tests QA DEV for ZARA #
+# <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYKq4hggSSPA3QvDqSStGRAroLw_vUDlOJdT6IrJIlehPc5sQSei4VhMnF85cXfm7W1hg&usqp=CAU" align="left" width="50" /> Tests QA DEV for ZARA #
 
 ## 📫 <a name="section-installation">Getting Started</a>
 
