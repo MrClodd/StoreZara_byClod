@@ -9,7 +9,7 @@ You need google chrome installed locally but supported: Frirefox, Edge, Electron
 
 1. Install cypress https://www.cypress.io/
 2. Install node.js https://nodejs.org/en/
-3. Install cypress/xptah https://github.com/cypress-io/cypress/tree/develop/npm/xpath
+3. Install cypress/xpath https://github.com/cypress-io/cypress/tree/develop/npm/xpath
 
 Recommended
 
