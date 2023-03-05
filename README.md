@@ -50,7 +50,9 @@ How tu use Cypress
             npx cypress run
 
 
-![Report](https://github.com/MrClodd/StoreZara_byClod/blob/8ba11bf236932c83c2d78098c368a56c29f942ef/cypress/screenshots/cypress%20open.png)            
+![Report](https://github.com/MrClodd/StoreZara_byClod/blob/8ba11bf236932c83c2d78098c368a56c29f942ef/cypress/screenshots/cypress%20open.png)   
+
+![image](https://github.com/MrClodd/StoreZara_byClod/blob/830a8b02beb5d70e8ddf864964d909aad20be8ca/cypress/screenshots/cypress%20run%20report.png)
 
 ## Video
 
