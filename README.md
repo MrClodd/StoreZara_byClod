@@ -86,7 +86,7 @@ https://petstore.swagger.io/
 <br>Result is: The output format must be formed by the tuple ```{id, name}```
 
 🧪Test Case 3: Create a class whose constructor requires the above data structure and make a method that can loop through it to identify how many pets have the same name.
-<br>Action is: Open Postman and create a new HTTP GET request and enter the endpoint URL ```/pet/findByStatus```
+<br>Action is: Can use the python request library and create a class that takes this list as an argument and has a method that counts the number of pets that have the same name
 <br>Test Data is: pets have the same name in the Swagger API data structure
 <br>Result is: Example output: ```{"doggie": 35, "Собака": 1, "кыца": 1, "Кошка": 1, "Кошки": 1, "kitten1": 1, "Анаконда": 1, "LAPIN LAPIN": 1, "Star": 1}```
 
