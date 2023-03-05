@@ -15,6 +15,7 @@ Recommended
 - Javascript
 - VS Code
 - Postman
+- Python
 
 ## Check versions:
 
