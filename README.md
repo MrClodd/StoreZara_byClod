@@ -50,11 +50,13 @@ How tu use Cypress
             npx cypress run
 
 
-![Report](https://freefrontend.com/assets/img/css-loaders/loading.gif)            
+![Report](https://github.com/MrClodd/StoreZara_byClod/blob/8ba11bf236932c83c2d78098c368a56c29f942ef/cypress/screenshots/cypress%20open.png)   
+
+![image](https://github.com/MrClodd/StoreZara_byClod/blob/830a8b02beb5d70e8ddf864964d909aad20be8ca/cypress/screenshots/cypress%20run%20report.png)
 
 ## Video
 
-![image](https://freefrontend.com/assets/img/css-loaders/loading.gif)
+[![Watch the video](https://github.com/MrClodd/StoreZara_byClod/blob/bd2b406ecaf629bc7bfef1bcae6618df3dac4c50/cypress/videos/video%20scrren.png)](https://github.com/MrClodd/StoreZara_byClod/blob/bc9d52b6c388ad4989b45476f5f4d8a478a02b99/cypress/videos/web.cy.js.mp4)
 
 ### 📖 API test
 
