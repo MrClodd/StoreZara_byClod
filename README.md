@@ -46,6 +46,8 @@ How tu use Cypress
 ## 📍 ## Execute the tests with Cypress
 
             npx cypress open
+            
+            npx cypress run
 
 
 ![Report](https://freefrontend.com/assets/img/css-loaders/loading.gif)            
