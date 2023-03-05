@@ -54,7 +54,7 @@ How tu use Cypress
 
 ## Video
 
-![image](https://freefrontend.com/assets/img/css-loaders/loading.gif)
+![image](https://github.com/MrClodd/StoreZara_byClod/blob/830a8b02beb5d70e8ddf864964d909aad20be8ca/cypress/screenshots/cypress%20run%20report.png)
 
 ### 📖 API test
 
